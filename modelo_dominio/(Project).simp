@@ -86,7 +86,7 @@
     <custom-types>
       <parameters />
       <types>
-        <type id="Class:a46696dbaa2e46daa658a4724df1b37f" name="Carro" class-ref="a46696dbaa2e46daa658a4724df1b37f" />
+        <type id="Class:a46696dbaa2e46daa658a4724df1b37f" name="Vehiculo" class-ref="a46696dbaa2e46daa658a4724df1b37f" />
         <type id="Class:3c761a0486b34af6beb1320c95b1e2d1" name="Cliente" class-ref="3c761a0486b34af6beb1320c95b1e2d1" />
         <type id="Class:d90f55d69e324fd9ac4cd903457b8718" name="Cupo" class-ref="d90f55d69e324fd9ac4cd903457b8718" />
         <type id="Class:53422c9d0bd14378a7b34c4f06b605b6" name="Pago" class-ref="53422c9d0bd14378a7b34c4f06b605b6" />
@@ -106,7 +106,7 @@
       <structural-feature multiplicity="1" type="Pago" type-id="Class:53422c9d0bd14378a7b34c4f06b605b6" />
     </item>
     <item id="e7c6189d954b40b885c84b3ff7c4cfb2" cid="PROP010" type="property" owner="f241ec23ce1746a2931867aca9613133" creator="" creation-date="02/07/2024 14:44:57" visibility="undefined">
-      <structural-feature multiplicity="1..*" type="Carro" type-id="Class:a46696dbaa2e46daa658a4724df1b37f" />
+      <structural-feature multiplicity="1..*" type="Vehiculo" type-id="Class:a46696dbaa2e46daa658a4724df1b37f" />
     </item>
     <item id="bdad22e6544b45ecba5f5c87f7291590" cid="PROP027" type="property" owner="f9ce4c7e34a144559136a03eedcb9545" creator="" creation-date="02/13/2024 14:13:39" visibility="private">
       <structural-feature type="Pago" type-id="Class:53422c9d0bd14378a7b34c4f06b605b6" />
@@ -126,7 +126,7 @@
       <structural-feature type="Pago" type-id="Class:53422c9d0bd14378a7b34c4f06b605b6" />
     </item>
     <item id="d2921e34e45e4c30882c8eb37a3d2d41" cid="PROP030" type="property" name="se relaciona a" owner="727a269c6c174463828fd5e18631370b" creator="" creation-date="02/13/2024 14:14:30" visibility="private">
-      <structural-feature multiplicity="1" type="Carro" type-id="Class:a46696dbaa2e46daa658a4724df1b37f" />
+      <structural-feature multiplicity="1" type="Vehiculo" type-id="Class:a46696dbaa2e46daa658a4724df1b37f" />
     </item>
     <item id="ed4019e89c7f4eab8f85e5e03dca5b4f" cid="PROP001" type="property" owner="7477c448590e4517935b271acef444a8" creator="" creation-date="02/07/2024 14:41:59" visibility="private">
       <structural-feature type="Cliente" type-id="Class:3c761a0486b34af6beb1320c95b1e2d1" />
@@ -141,7 +141,7 @@
       <structural-feature type="Cliente" type-id="Class:3c761a0486b34af6beb1320c95b1e2d1" />
     </item>
     <item id="687077b13b834cc3978b9d815dafb21d" cid="PROP008" type="property" owner="32ad6092de6047fb964f1e278a530e71" creator="" creation-date="02/07/2024 14:43:19" visibility="undefined">
-      <structural-feature multiplicity="*" type="Carro" type-id="Class:a46696dbaa2e46daa658a4724df1b37f" />
+      <structural-feature multiplicity="*" type="Vehiculo" type-id="Class:a46696dbaa2e46daa658a4724df1b37f" />
     </item>
     <item id="efa9e330e0d64b1996c6f896012e77f7" cid="PROP023" type="property" name="se hace a" owner="d8380359db0a4f6da5106ebeecc6dfe4" creator="" creation-date="02/13/2024 14:00:49" visibility="private">
       <structural-feature multiplicity="*" type="Pago" type-id="Class:53422c9d0bd14378a7b34c4f06b605b6" />
@@ -161,7 +161,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="pc1ffafb471844f2ebda5d5ccf2ce2cbb_921229206" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-175,101" zoom="0.9">
+      <diagram type="uml-class" id="pc1ffafb471844f2ebda5d5ccf2ce2cbb_921229206" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="63,300" zoom="0.9">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -244,7 +244,7 @@
             </relation>
           </item>
           <item id="e75a67f998d842d7a31a59a8afdee93b" cid="PROP015" type="property" name="celular" owner="3c761a0486b34af6beb1320c95b1e2d1" creator="" creation-date="02/07/2024 14:55:36" visibility="private" />
-          <item id="a46696dbaa2e46daa658a4724df1b37f" cid="C003" type="class" name="Carro" creator="" creation-date="02/07/2024 14:40:59" visibility="undefined">
+          <item id="a46696dbaa2e46daa658a4724df1b37f" cid="C003" type="class" name="Vehiculo" creator="" creation-date="02/07/2024 14:40:59" visibility="undefined">
             <owned-items />
             <attributes>
               <attribute id="a7b591c5ff1b74c178f54f5fa2fdabc4d737" cid="PROP025" name="placa" creation-date="02/13/2024 14:13:01" property-ref="2033e4dee4c44cacbb190b5634225b3a" />
